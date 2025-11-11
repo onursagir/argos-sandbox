@@ -9,8 +9,5 @@ spec:
     repoURL: https://github.com/onursagir/argos-sandbox.git
     targetRevision: main
     path: manifests/echo
-  destination:
-    server: https://kubernetes.default.svc
-    namespace: default
   syncPolicy:
     automated: {}
