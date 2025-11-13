@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/onursagir/argos-sandbox.git
     targetRevision: main
-    path: apps/app-one/echo
+    path: apps/app-one/apps/echo
   destination:
     server: https://kubernetes.default.svc
     namespace: sandbox
