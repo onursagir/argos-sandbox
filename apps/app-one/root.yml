@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/onursagir/argos-sandbox.git
-    path: apps/app-one
+    path: apps/app-one/apps
     targetRevision: main
     directory:
       recurse: true
