@@ -9,6 +9,8 @@ spec:
     repoURL: https://github.com/onursagir/argos-sandbox.git
     path: groups/main/apps
     targetRevision: main
+    directory:
+      recurse: false
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
