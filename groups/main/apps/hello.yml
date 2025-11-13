@@ -1,16 +1,16 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: app-one
+  name: hello-app
   namespace: argocd
 spec:
   project: default
   source:
     repoURL: https://github.com/onursagir/argos-sandbox.git
-    path: apps/app-one/apps
     targetRevision: main
+    path: manifests/main/hello
   destination:
     server: https://kubernetes.default.svc
-    namespace: argocd
+    namespace: sandbox
   syncPolicy:
     automated: {}
